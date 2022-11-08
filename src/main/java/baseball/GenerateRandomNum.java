@@ -2,13 +2,10 @@ package baseball;
 
 import java.util.ArrayList;
 import java.util.List;
-//import java.util.Random;
 import camp.nextstep.edu.missionutils.Randoms;
 
 public class GenerateRandomNum { //랜덤숫자뽑기 기능
     public int randomMake(){
-        //Random random = new Random();
-        //return random.nextInt(9) + 1;
         int rannum = Randoms.pickNumberInRange(1, 9);
         return rannum;
     }

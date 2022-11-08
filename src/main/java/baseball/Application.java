@@ -3,6 +3,7 @@ package baseball;
 import java.util.List;
 
 public class Application {
+
     public static void main(String[] args) {
         GenerateRandomNum randomNum = new GenerateRandomNum(); //랜덤숫자뽑기
         Input input = new Input();//

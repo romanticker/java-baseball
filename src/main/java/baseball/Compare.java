@@ -1,7 +1,6 @@
 package baseball;
 
 import java.util.List;
-
 public class Compare {
     public int howMany(List<Integer> computer, List<Integer> player){
         int result = 0;
